@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Courses | History Lovers</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="index.html" class="logo"><i class="fas fa-landmark"></i> History Lovers</a>
+      <nav>
+        <a href="courses.html">Courses</a>
+        <button id="darkModeToggle" aria-label="Toggle dark mode"><i class="fas fa-moon"></i></button>
+      </nav>
+    </div>
+  </header>
+  <section class="container">
+    <h1>All Courses</h1>
+    <div class="filters">
+      <input type="text" id="searchBar" placeholder="Search courses...">
+      <select id="categoryFilter">
+        <option value="">All Categories</option>
+        <option value="Ancient">Ancient</option>
+        <option value="Medieval">Medieval</option>
+        <option value="Modern">Modern</option>
+        <option value="War">War History</option>
+      </select>
+    </div>
+    <div class="courses-grid" id="coursesGrid">
+      <!-- JS will inject course cards -->
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <span>&copy; 2025 History Lovers</span>
+    </div>
+  </footer>
+  <button id="backToTop"><i class="fas fa-arrow-up"></i></button>
+  <script src="app.js"></script>
+</body>
+</html>
