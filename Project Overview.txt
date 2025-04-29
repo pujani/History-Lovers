@@ -1,0 +1,128 @@
+📚 Project Prompt: Modern Learning Platform — "History Lovers"
+Overview:
+"History Lovers" is a modern educational web application designed for students passionate about history. The platform allows administrators to create, organize, and showcase interactive courses, where each course is made up of sub-topics, videos, PDF resources, and an interactive MCQ quiz game.
+
+The web application must be built using only HTML, CSS, and JavaScript (no frameworks like React/Vue).
+It should have a modern UI/UX, responsive design (works on desktop, tablet, mobile), and clean, engaging animations (hover effects, smooth transitions).
+
+🏛 Core Features (based on your original idea + modern improvements):
+Home / Landing Page:
+A hero section with a catchy slogan (e.g., "Discover the Past, Shape the Future").
+
+Featured Courses carousel (auto-slide and clickable cards).
+
+Search bar and filter options (e.g., by Instructor, Time, Category).
+
+Category Tags (e.g., Ancient, Medieval, Modern, War History).
+
+Statistics Section showing:
+
+Total Courses
+
+Total Students
+
+Total Hours of Learning
+
+Total Quizzes
+
+Courses Section:
+Courses displayed as responsive cards:
+
+Course Thumbnail (use dummy image)
+
+Course Name
+
+Course ID
+
+Allocated Time
+
+Instructor Name
+
+"View Details" button
+
+✨ Each card should have hover animations (lift-up effect).
+
+Course Details Page:
+Large Course Overview Card with full description.
+
+Progress Bar showing course completion (dummy values).
+
+List of Subtopics as collapsible accordion-style cards:
+
+Subtopic Name
+
+Brief Introduction
+
+Tags (if any)
+
+Inside each Subtopic:
+
+Embedded YouTube video (iframe).
+
+Link to download PDF (dummy PDF links).
+
+"Mark as Read" button (just a toggle effect).
+
+MCQ Quiz Game (at end of Subtopics):
+Interactive 10-question MCQ quiz per course:
+
+Question + 4 options (radio buttons).
+
+Show instant feedback after each answer.
+
+Track correct/wrong answers.
+
+Show final score and share your score (dummy link).
+
+"Retake Quiz" button.
+
+✨ Quiz animations (smooth loading between questions).
+
+🚀 Extra Modern Features (Added for a better product):
+Dark Mode Toggle (Button to switch between light and dark mode)
+
+User Progress Tracker (Dummy progress per course and subtopic)
+
+Favorite Courses (Add to Favorites heart icon ❤️)
+
+Back to Top Button (appears when scrolling down)
+
+Pre-loader animation (while the site loads)
+
+404 Error Page (for broken links)
+
+🎨 Style Suggestions:
+Font: Modern Sans-Serif (like Poppins, Roboto)
+
+Color Palette:
+
+Primary: Navy Blue (#1B263B)
+
+Accent: Soft Orange (#FF6B35)
+
+Background: Light Grey (#F5F5F5)
+
+Animations: Smooth fade-ins, hover lift, button ripple effects
+
+Layout: Grid and Flexbox combination
+
+🛠 Technical Constraints:
+Only use: HTML5, CSS3, and Vanilla JavaScript.
+
+No external frameworks like Bootstrap, Tailwind, or React.
+
+You can use icons from Font Awesome and fonts from Google Fonts.
+
+All images/videos/PDFs should be dummy placeholders.
+
+📝 Deliverables:
+index.html (Landing Page + Featured Courses)
+
+courses.html (Course Cards Listing)
+
+course-details.html (Course Info + Subtopics + Quiz)
+
+style.css (Single CSS file or modular structure)
+
+app.js (JS interactions: accordion, quiz, dark mode, etc.)
+
