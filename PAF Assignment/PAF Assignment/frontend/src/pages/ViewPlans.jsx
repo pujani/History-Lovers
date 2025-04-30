@@ -105,6 +105,16 @@ function ViewPlans() {
                     </p>
                 </div>
 
+                <div className="max-w-md mx-auto bg-white shadow-lg rounded-2xl p-6 mb-10 border border-indigo-200">
+  <h3 className="text-xl font-semibold text-indigo-800 text-center mb-2">Learning Plans Summary</h3>
+  <p className="text-center text-md text-gray-600">
+  Showing <span className="font-bold text-indigo-700">{filteredPlans.length}</span> of{" "}
+  <span className="font-bold text-indigo-700">{plansForUserId.length}</span> total plans
+</p>
+
+</div>
+
+
                 {/* Search Bar */}
                 <div className="mb-10 flex items-center max-w-md mx-auto">
                     <div className="relative w-full">
