@@ -3,7 +3,7 @@ package net.javaguides.springboot.model;
 import jakarta.persistence.*;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-//Entity for this
+//Entity for This
 @Entity
 @Table(name = "comments")
 public class Comment {
