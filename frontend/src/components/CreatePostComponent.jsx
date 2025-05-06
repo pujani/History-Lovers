@@ -7,6 +7,7 @@ const CreatePostComponent = () => {
   const [content, setContent] = useState('');
   const navigate = useNavigate();
 
+  //save the post
   const savePost = (e) => {
     e.preventDefault();
     const post = { title, content };
