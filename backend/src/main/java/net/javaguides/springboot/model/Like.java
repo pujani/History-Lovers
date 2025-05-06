@@ -15,7 +15,7 @@ public class Like {
     private Post post;
 
     @Column(name = "user_id", nullable = false)
-    private String userId; //add foreign key to your User entity
+    private String userId; //Add foreign key to your User entity
 
     public Like() {
     }
