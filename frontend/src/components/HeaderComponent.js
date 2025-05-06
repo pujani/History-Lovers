@@ -1,3 +1,4 @@
+// Header code
 import React, { Component } from 'react'
 
 class HeaderComponent extends Component {
