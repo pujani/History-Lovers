@@ -1,3 +1,4 @@
+//This is Footer code
 import React, { Component } from 'react'
 
 class FooterComponent extends Component {
