@@ -1,4 +1,4 @@
-//Exepction added
+//Exepction Added
 package net.javaguides.springboot.exception;
 
 import org.springframework.http.HttpStatus;
