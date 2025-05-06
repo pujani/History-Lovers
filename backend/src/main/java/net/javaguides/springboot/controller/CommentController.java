@@ -23,7 +23,7 @@ public class CommentController {
 	@Autowired
 	private PostRepository postRepository;
 
-	// ✅ Create comment for a post
+	// Create comment for a post
 	@PostMapping("/posts/{postId}/comments")
 	public ResponseEntity<Comment> createComment(
 			@PathVariable Long postId,
