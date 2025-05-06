@@ -5,7 +5,7 @@ import CommentService from '../services/CommentService';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashAlt, faThumbsUp, faThumbsDown, faEdit } from '@fortawesome/free-solid-svg-icons';
-import './ConfirmationModal.css'; // Import the CSS file
+import './ConfirmationModal.css'; // Import the CSS File
 
 class ConfirmationModal extends Component {
   render() {
