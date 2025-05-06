@@ -18,7 +18,7 @@ const UpdateCommentComponent = () => {
         .then(res => {
           const commentData = res.data;
           setCommentText(commentData.comment);
-          setName(commentData.userId); // Assuming userId in your backend is the name
+          setName(commentData.userId); // assuming userId in your backend is the name
           setLoading(false);
         })
         .catch(err => {
