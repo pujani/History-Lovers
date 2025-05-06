@@ -18,7 +18,7 @@ public class Post {
     @Column(name = "content", columnDefinition = "TEXT")
     private String content;
 
-    // One post can have many comments
+    // One Post can have many comments
     @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Comment> comments = new ArrayList<>();
 
