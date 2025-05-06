@@ -90,7 +90,7 @@ class PostListComponent extends Component {
   }
 
   postComment = (postId) => {
-    const comment = { comment: this.state.newComment, userId: 'user123' }; // Replace with actual user info
+    const comment = { comment: this.state.newComment, userId: 'user123' }; // Replace with actual user Info
     CommentService.createComment(postId, comment)
       .then(res => {
         this.setState({ newComment: '', commentingPostId: null, showCommentConfirmation: true }); // Show confirmation
