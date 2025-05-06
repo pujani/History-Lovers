@@ -30,7 +30,7 @@ public class PostController {
         return new ResponseEntity<>(savedPost, HttpStatus.CREATED);
     }
 
-    // Get all posts
+    // this Get all posts 
     @GetMapping("/posts")
     public List<Post> getAllPosts() {
         return postRepository.findAll();
