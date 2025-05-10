@@ -1,4 +1,4 @@
-// src/components/PostListComponent.jsx
+// Src/components/PostListComponent.jsx
 import React, { Component } from 'react';
 import PostService from '../services/PostService';
 import CommentService from '../services/CommentService';
