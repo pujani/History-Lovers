@@ -5,7 +5,7 @@ import CreatePostComponent from './components/CreatePostComponent';
 import UpdatePostComponent from './components/UpdatePostComponent';
 import ViewPostComponent from './components/ViewPostComponent';
 import PostListComponent from './components/PostListComponent';
-import UpdateCommentComponent from './components/UpdateCommentComponent'; // Make sure this import 
+import UpdateCommentComponent from './components/UpdateCommentComponent'; 
 import ViewCommentComponent from './components/ViewCommentComponent';
 
 function App() {
