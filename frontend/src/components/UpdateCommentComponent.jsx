@@ -3,7 +3,7 @@ import CommentService from '../services/CommentService';
 import { useParams, useNavigate } from 'react-router-dom';
 
 const UpdateCommentComponent = () => {
-  const { id: postId, commentId } = useParams(); // Rename 'id' to 'postId' for clarity
+  const { id: postId, commentId } = useParams(); // Rename 'id' to 'postId' for clarity 
   const [commentText, setCommentText] = useState('');
   const [name, setName] = useState(''); // Changed from author
   const [loading, setLoading] = useState(false);
