@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
-import './ConfirmationModal.css'; // Import the CSS file
+import './ConfirmationModal.css'; // import the CSS file
 
 class ConfirmationModal extends Component {
   render() {
