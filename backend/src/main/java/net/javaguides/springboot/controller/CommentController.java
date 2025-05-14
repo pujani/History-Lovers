@@ -37,14 +37,14 @@ public class CommentController {
 		return new ResponseEntity<>(savedComment, HttpStatus.CREATED);
 	}
 
-	// ✅ Get all comments for a specific post
+	//  Get all comments for a specific post
 	@GetMapping("/posts/{postId}/comments")
 	public ResponseEntity<List<Comment>> getCommentsByPostId(@PathVariable Long postId) {
 		List<Comment> comments = commentRepository.findByPostId(postId);
 		return new ResponseEntity<>(comments, HttpStatus.OK);
 	}
 
-	// ✅ Get a specific comment by ID
+	//  Get a specific comment by ID
 	@CrossOrigin(origins = "http://localhost:3000") // Explicitly allow CORS for this method
 	@GetMapping("/posts/{postId}/comments/{commentId}")
 	public ResponseEntity<Comment> getCommentById(@PathVariable Long postId, @PathVariable Long commentId) {
@@ -56,7 +56,7 @@ public class CommentController {
 		return new ResponseEntity<>(comment, HttpStatus.OK);
 	}
 
-	// ✅ Update a comment
+	//  Update a comment
 	@PutMapping("/posts/{postId}/comments/{commentId}")
 	public ResponseEntity<Comment> updateComment(@PathVariable Long postId, @PathVariable Long commentId, @RequestBody Comment commentDetails) {
 		Comment comment = commentRepository.findById(commentId)
@@ -70,7 +70,7 @@ public class CommentController {
 		return new ResponseEntity<>(updatedComment, HttpStatus.OK);
 	}
 
-	// ✅ Delete a comment
+	//  Delete a comment
 	@DeleteMapping("/posts/{postId}/comments/{commentId}")
 	public ResponseEntity<Void> deleteComment(@PathVariable Long postId, @PathVariable Long commentId) {
 		Comment comment = commentRepository.findById(commentId)
