@@ -1,4 +1,4 @@
-// Header code
+// Header Code
 import React, { Component } from 'react'
 
 class HeaderComponent extends Component {
