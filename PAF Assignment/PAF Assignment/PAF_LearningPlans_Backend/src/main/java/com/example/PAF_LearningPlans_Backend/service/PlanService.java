@@ -5,6 +5,7 @@ import com.example.PAF_LearningPlans_Backend.model.Plan;
 import com.example.PAF_LearningPlans_Backend.repo.PlanRepo;
 import jakarta.transaction.Transactional;
 import org.modelmapper.ModelMapper;
+import org.modelmapper.TypeToken;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -50,5 +51,11 @@ public class PlanService {
     public String removePlan(Integer planId){
         planRepo.deleteById(planId);
         return "Item Removed";
+    }
+
+    //Get ALl Plans
+    public List<PlanDTO> getAllPlans(){
+        List<Plan> planList = planRepo.findAll();
+        return modelMapper.map(planList,new TypeToken<List<PlanDTO>>(){}.getType());
     }
 }

@@ -54,4 +54,10 @@ public class PlanController {
         topicService.removePlansFromTopicTable(planId);
         return planService.removePlan(planId);
     }
+
+    //Get All Learning Plans
+    @GetMapping("/getAllPlans")
+    public List<PlanDTO> getPlanByPlanId(){
+        return planService.getAllPlans();
+    }
 }

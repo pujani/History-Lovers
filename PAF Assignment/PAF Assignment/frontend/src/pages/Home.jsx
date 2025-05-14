@@ -13,6 +13,10 @@ function Home() {
       alert("Please enter a User ID first");
     }
   }
+  
+   function handleCreateLearningPlanButton(){
+        navigate(`retriveAllUser/${userId}`);
+    }
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
