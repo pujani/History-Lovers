@@ -12,7 +12,7 @@ class ViewCommentComponent extends Component {
     }
 
     componentDidMount() {
-        CommentService.getCommentById(this.state.postId, this.state.commentId).then(res => {
+        CommentService.getCommentById(this.state.postId, this.state.commentId).then(res => { 
             this.setState({ comment: res.data });
         });
     }
