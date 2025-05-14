@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import CommentService from '../services/CommentService';
 
 class ViewCommentComponent extends Component {
-    constructor(props) {
+    constructor(props) { 
         super(props);
         this.state = {
             postId: this.props.match.params.id,
