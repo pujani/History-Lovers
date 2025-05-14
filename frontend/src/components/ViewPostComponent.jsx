@@ -5,7 +5,7 @@ const ViewPostComponent = ({ post }) => {
     <div className="view-post">
       <h2>{post.title}</h2>
       <p>{post.content}</p>
-      {/* Add more post details as needed */}
+      {/* Add more post details as needed  */}
     </div>
   );
 };
