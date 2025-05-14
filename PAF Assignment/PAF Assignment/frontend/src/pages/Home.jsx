@@ -22,7 +22,8 @@ function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
       <div className="w-full max-w-md bg-white rounded-xl shadow-lg p-8 space-y-8">
         <div className="text-center">
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">Learning Journey</h1>
+          <h1 className="text-3xl font-bold text-gray-800 mb-2">History Lovers</h1>
+          <h1 className="text-3xl font-bold text-gray-800 mb-2">Learning Platform</h1>
           <p className="text-gray-600 mb-6">Enter your User ID to get started with your personalized learning plan</p>
         </div>
         
