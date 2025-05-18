@@ -19,7 +19,7 @@ public class PostController {
     @Autowired
     private PostRepository postRepository;
 
-    // Create a New post
+    // Create a New Post
     @PostMapping("/posts")
     public ResponseEntity<Post> createPost(
             @RequestParam("title") String title,
