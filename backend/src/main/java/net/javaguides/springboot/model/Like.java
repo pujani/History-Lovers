@@ -2,7 +2,7 @@ package net.javaguides.springboot.model;
 
 import jakarta.persistence.*;
 
-@Entity  /* using Entity */
+@Entity  /* Using Entity */
 @Table(name = "likes")
 public class Like {
 
