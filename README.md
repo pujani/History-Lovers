@@ -1,8 +1,10 @@
 📚 History Lovers — Heritage Learning Center
 Overview
 History Lovers is a comprehensive web application designed for history enthusiasts.
-One of its major features, Heritage Learning Center, offers an immersive online learning experience.
+One of its major features, Heritage Learning Center, offers an immersive online learning experience
 It allows administrators to create and manage history courses, while learners explore courses, engage with multimedia content, and challenge their knowledge through interactive quizzes.
+
+![Project Screenshot](./img1.png)
 
 Built with a Spring Boot backend and a React.js frontend, the platform provides a clean, modern, and fully responsive user experience.
 
